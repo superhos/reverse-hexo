@@ -1,0 +1,25 @@
+{
+  "name": "reverse-hexo",
+  "version": "1.0.0",
+  "description": "A tool for converting the hexo's generated code to the source code",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superhos/vue-baberrage"
+  },
+  "author": "Sevens",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "reverse-hexo": "index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "h2m": "^0.6.0",
+    "he": "^1.1.1",
+    "quickly-copy-file": "^1.0.0",
+    "url-exists": "^1.0.3"
+  }
+}
